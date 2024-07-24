@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Personal Blogging</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blogging</title>
+    <link rel="stylesheets" href="./assets/css/styles.css">
         <!--Make sure to link the stylesheets to the html file.-->
     </head>
 
     <body>
+        <!--<div id="them-container"> FROM WALTER--> 
         <header>
             <!--Use the nav function so you can link the spreadsheets for light/dark mode and back button-->
             <nav>
-                <button></button><!--Copy the link of a sun and/or moon. See if there's one in the challenge README file. And make "IDs"/"Classes" to apply to button.-->
+                <button class="light-mode & dark-mode">☀️</button><!--Copy the link of a sun and/or moon. See if there's one in the challenge README file. And make "IDs"/"Classes" to apply to button.-->
             </nav>
         </header>
     
     <main>
         <section><!--DO I WANT TO ADD A CIRCLE ON AN IMAGE? WHERE WOULD I PUT IT & HOW WOULD I APPLY THE CSS?-->
             <div><!--This div could select the left column.-->
-                <h1>My First Blog</h1>
+                <h1>Hayden's First Blog</h1>
             </div>
         </section>
 
         <section>
-            <div><!--Use this div to choose the right column -->
+            <div id="user-form"><!--Use this div to choose the right column. ADD ID FOR BLOG-FORM.-->
                <h2>What would you like to blog?</h2>
                <form>
                 <div>
-                    <label>Username</label>
-                    <input><!--Use this to edit the text box. Make sure to add a placeholder example to show the user which information is needed.-->
+                    <label for="blog-username">Username</label>
+                    <input type="text" id="blog-username" name="blog-username" placeholder="Sandra Bullock"><!--Use this to edit the text box. Make sure to add a placeholder example to show the user which information is needed.-->
                 </div>
                 <div>
-                    <label>Blog Title</label>
-                    <input><!--Use this to edit the text box. Make sure to add a placeholder example to show the user which information is needed.-->
+                    <label for="blog-title">Blog Title</label>
+                    <input type="text" id="blog-title" name="blog-title" placeholder="My Latest Idea"><!--Use this to edit the text box. Make sure to add a placeholder example to show the user which information is needed.-->
                 </div>
                 <div>
-                    <label>Blog Content</label>
-                    <input><!--Use this to edit the text box. Make sure to add a placeholder example to show the user which information is needed.-->
+                    <label for="blog-content">Blog Content</label>
+                    <textarea id="blog-content" name="blog-content"></textarea><!--Use this to edit the text box. Make sure to add a placeholder example to show the user which information is needed.-->
                 </div>
-                <button>Submit</button><!--make sure you have type, id, value, anchor tag for blog.html. bold submit if you want.-->
+                <button type="submit">Submit</button><!--make sure you have type, id, value, anchor tag for blog.html. bold submit if you want.-->
                </form>
             </div>
         </section>
+    </main>
+    <script src="./assets/js/logic.js"></script>
+    </body>
+</html>
         <!--Don't forget to link the javascript files here. Use the <script> tag.-->
