@@ -6,6 +6,10 @@ This repository is my first challenge at using web APIs in Javascript. The deplo
 ## Demo Screenshot
 ![Main Page Screenshot](https://github.com/Hayden-Cook/Blog-Challenge/blob/main/assets/images/Blog%20Main%20Page.png)
 ![Blog History](https://github.com/Hayden-Cook/Blog-Challenge/blob/main/assets/images/Blog%20History.png)
+
+##Deployment Link
+
+
 ## Credits
 MDN Web Docs: HTML Elements
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
