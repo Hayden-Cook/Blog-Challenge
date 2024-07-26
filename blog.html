@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheets" href="./assets/css/blog.css">
     <link rel="stylesheets" href="./assets/css/styles.css">
+    <link rel="stylesheets" href="./assets/css/blog.css">
+    <title>My Blogs</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>My Blog History</h1>
-            <button id="toggleLightDark" class="light-mode-dark-mode">☀️</button>
-            <button id="backBtn"><a href="./index.html">Back</a></button>
-        </nav>
-    </header>
+    <div id="theme-container">
+        <header>
+            <nav id="navbar">
+                <h1>My Blog History</h1>
+                <button id="toggle-Light-Dark" class="color-theme">☀️</button>
+                <button type="button" id="backBtn"><a href="./index.html">Back</a></button>
+            </nav>
+        </header>
+    </div>
+    <div class="blog-post-container">
+        <div class="blog-post">
+            <div class="title-of-blog">Blog Title:</div>
+            <div class="content-of-blog">Blog Content:</div>
+            <div class="author-of-blog">Author:</div>
+        </div>
+    </div>
+    <script src="./assets/js/blog.js"></script>
+    <script src="./assets/js/logic.js"></script>
 </body>
 </html>

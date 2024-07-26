@@ -1,34 +1,16 @@
 # Week 4 Challenge: My Blog
 
----GIVEN a personal blog
----WHEN I load the app,
----THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
----WHEN I submit the form,
----THEN blog post data is stored to localStorage.
----WHEN the form submits,
----THEN I am redirected to the posts page.
----WHEN I enter try to submit a form without a username, title, or content,
----THEN I am presented with a message that prompts me to complete the form.
-WHEN I view the posts page,
-THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
-WHEN I click the light mode/dark mode toggle,
-THEN the page content's styles update to reflect the selection.
-WHEN I click the "Back" button,
-THEN I am redirected back to the landing page where I can input more blog entries.
-WHEN I view the main content,
-THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio.
+## Description
+This repository is my first challenge at using web APIs in Javascript. The deployment link will take the user to a page that gives them the options to log blog entries. Once they have submitted a post, they are redirected to a new page that hosts the user's blog posts. On this page, the user will find a back button, redirecting them to the blog's main page, and a theme button. The theme button can be used to toggle the "light" and "dark" modes on the blog page.
 
-Extra Notes
-- logic.js has 3 functions applyTheme, handleThemeToggle, and readLocalStorage
-- form.js has hadleFormSubmit and optionally 2 functions redirectPage and storeLocalStorage
-- blog.js has 3 functions buildPostsElements, handleEmptyLocalStorage, renderPostList
-- style.css has reset css styles (optionally use alternate code. DON'T HAVE TO DO RESET CSS), light and dark css variables (font, bg, and border), has transition to animate color toggle,
-    uses flex box for html element layout positioning, and uses classes and ids
-- form.css uses variable to style html tags, classes, and ids
-- blog.css uses variables to style html tags, classes, and ids
+## Demo Screenshot
+
+## Credits
+MDN Web Docs: HTML Elements
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+Module 04 Activites: GitLab
+https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-06-2024-U-LOLC
+
+## License
+[MIT]

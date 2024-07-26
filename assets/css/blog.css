@@ -1,0 +1,17 @@
+.light-colors {
+    background-color: white;
+    color: black;
+    height: 100vh;
+}
+
+.dark-colors {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+/*  */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
