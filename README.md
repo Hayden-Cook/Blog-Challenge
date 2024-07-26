@@ -7,7 +7,7 @@ This repository is my first challenge at using web APIs in Javascript. The deplo
 ![Main Page Screenshot](https://github.com/Hayden-Cook/Blog-Challenge/blob/main/assets/images/Blog%20Main%20Page.png)
 ![Blog History](https://github.com/Hayden-Cook/Blog-Challenge/blob/main/assets/images/Blog%20History.png)
 
-##Deployment Link
+## Deployment Link
 
 
 ## Credits
