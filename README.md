@@ -8,7 +8,7 @@ This repository is my first challenge at using web APIs in Javascript. The deplo
 ![Blog History](https://github.com/Hayden-Cook/Blog-Challenge/blob/main/assets/images/Blog%20History.png)
 
 ## Deployment Link
-
+https://hayden-cook.github.io/Blog-Challenge/
 
 ## Credits
 MDN Web Docs: HTML Elements
